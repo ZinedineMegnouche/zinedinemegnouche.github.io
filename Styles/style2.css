@@ -1,0 +1,353 @@
+/*General*/
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+a:hover{
+  color: #d79a10;
+}
+header{
+  margin-top: 20px;
+}
+footer{
+  padding-top: 150px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #002C48;
+  border-radius:5px;
+  text-align: center;
+  width: auto;
+  height: 50px;
+  color: white;
+}
+h4{
+  color: #d79a10;
+}
+
+h5{
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #002C48;
+  font-size: 18px;
+}
+
+section{
+  margin-top: 10px;
+}
+section h2{
+  padding-top: 12px;
+  font-size: 30px;
+}
+section h3{
+  font-weight: bold;
+  font-size: 22px;
+}
+section h4{
+  font-size: 18px;
+}
+section p{
+  font-size: 16px;
+}
+/*Principal*/
+#principal{
+  margin-top: 25px;
+  height:100px;
+  /*background: url('../Images/main.png') center;*/
+  background-color: #002C48;
+  color: white;
+  text-align: center;
+  padding-top:45;
+  border-radius:5px; 
+}
+#principal h1{
+  padding-top: 25px; 
+  font-size: 40px;
+}
+/*Menu*/
+
+.menu li{
+  display: inline-block;
+}
+.menu h1{
+  margin: 20px;
+  float: left;
+}
+.menu li a{
+  float: right;
+  margin: 25px 10px 0 0;
+  margin:auto;
+  padding: 10px;
+}
+.menu ul ul{
+  display: none;
+}
+ .navigation li:hover ul{
+  margin-top: 30px;
+ display:inline-block;
+ color: green;
+ background-color: white;
+ border-style: solid;
+ border-color: #002C48;
+ justify-content: center;
+ }
+ .navigation li:hover li{
+  float: none;
+  display: inline-flex;
+  padding: 0px 10px;
+ }
+.navigation ul{
+  display: block;
+  position: absolute;
+}
+.navigation {
+  display: inline-block;
+  float: right;
+  position: relative; 
+  margin: 25px 10px 0 0; 
+}
+
+.wrapper
+{
+  width: 1100px;
+  margin:0px auto;
+  padding: 0 10px;
+  border-style: line;
+  border-width: 5px;
+} 
+.wrapperL{
+  width: 520px;
+  margin:0px auto;
+  padding: 0 10px;
+  float: left;
+  border-width:4px;
+  border-style:solid;
+  border-color:#002C48;
+  border-radius: 5px;
+}
+.wrapperL h3{
+  padding-left: 47%;
+  color: #d79a10;
+
+}
+.clear{
+  clear: both;
+}
+
+.formation{
+  border-radius: 10px;
+
+}
+.Profil img{
+  height: 450px;
+  width: auto;
+  border-radius: 50px;
+  margin-right: 50px;
+  /*height: 333px;
+  width: 105px; */
+  
+}
+
+.competence{
+  border-radius:10px;
+
+}
+
+.projet{border-radius:10px;
+  
+}
+
+.contacts{border-radius:10px;
+
+}
+.competence h3{
+    color: #d79a10;
+
+}
+.competence img{
+  height: 40px;
+  width: auto;
+}
+.competence figcaption{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+#php{
+  padding-left: 20px;
+}
+#c{
+  padding-left: 10px;
+}
+
+.projet h3{
+  color: #d79a10;
+}
+.competence h3{
+  border: solid;
+}
+
+.competence ul, li{
+  display: flex;
+  justify-content: space-around;
+}
+.info ul, li {
+  justify-content: left;
+}
+
+.experience img{
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 30px;
+}
+.exemple img{
+  width: 400px;
+  height: 120px;
+  border-radius: 100px;
+  padding: 0px 50px;
+}
+
+.experience li{
+  padding: 10px;
+}
+.experience strong{
+  font-size: 18px;
+}
+.experience h5{
+  padding-top: 25px;
+  font-size: 25px;
+}
+.experience p{
+  line-height: 200%;
+}
+.outil li{
+  display: inline-block;
+  padding-bottom: 10
+}
+.telechargement h2{
+  background-color: #002C48;
+  color: white;
+
+}
+.capture{
+  display: flex;
+  justify-content: space-around;
+}
+.capture img{
+  height:500px;
+  width: auto;
+  border-radius: 0px;
+}
+figcaption{
+  padding-left: 75px;
+}
+.telechargement img{
+  width: 20px;
+  height: auto;
+  padding-top: 10px;
+}
+.Avis input, select, textarea, label{
+  display: block;
+}
+.Avis input[type="text"]
+{
+  margin: 5px 0 5px 0;
+  height: 31px;
+  width: 190px;
+  border-radius: 7px;
+}
+.Avis select, option{
+  width: 195px;
+  height:131px;
+  margin: 5px 0 5px 0;
+  font-size: 17px;
+}
+.Avis textarea{
+  width: 450px;
+  height: 250px;
+}
+.Avis input[type="submit"]
+{
+  list-style: none;
+  width: 95px;
+  height:31px;
+  margin: 5px 0 5px 0;
+  font-size: 17px;
+
+}
+.mac img{
+  width:  100px;
+  height: auto;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+#Bank {
+  margin-top: 50px;
+}
+.projetBank img {
+  width:  100px;
+  height: auto;
+  padding: 15px;
+}
+.outils img {
+  width: 200px;
+  height: 120px;
+  border-radius: 100px;
+  padding: 0px 50px;
+}
+.captureB{
+  display: flex;
+  justify-content: space-around;
+}
+.captureB figcaption{
+  padding-left: 50px;
+}
+.captureB img{
+  height:500px;
+  width: auto;
+  border-radius: 0px;
+}
+.captureB img{
+  height:500px;
+  width: auto;
+  border-radius: 0px;
+}
+#Story {
+  padding-top: 30px;
+  display: block;
+  height: 515px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+#legend{
+  padding-top: 15px;
+  text-align: center;
+}
+#txt{
+  margin-top: 50px;
+}
+#Objectifs{
+  padding-top: 40px;
+}
